@@ -1,8 +1,11 @@
-{ rp ? "" }:
+{ 
+  pkgs ? import <nixpkgs> {},
+  rp ? "",
+}:
 
-with (import <nixpkgs> {});
+with pkgs;
 
 {
-  gnomeExtensions = import ./gnomeExtensions { inherit rp; };
+  gnomeExtensions = import ./gnomeExtensions { inherit pkgs rp; };
   lx-music-desktop = callPackage ./lx-music-desktop { inherit rp; };
 }

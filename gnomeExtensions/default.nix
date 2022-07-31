@@ -1,6 +1,9 @@
-{ rp ? "" }:
+{ 
+  pkgs ? import <nixpkgs> {},
+  rp ? "",
+}:
 
-with (import <nixpkgs> {});
+with pkgs;
 
 {
   onedrive = callPackage ./onedrive { inherit rp; };

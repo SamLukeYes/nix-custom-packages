@@ -8,15 +8,7 @@ with pkgs; rec {
 
   asp = callPackage ./asp { inherit rp; };
 
-  arch-install-scripts = callPackage "${
-    builtins.fetchTarball "${rp}https://github.com/SamLukeYes/nixpkgs/archive/arch-install-scripts.tar.gz"
-  }/pkgs/tools/misc/arch-install-scripts" {};
-
   devtools = callPackage ./devtools { inherit rp; };
-
-  pacman = callPackage "${
-    builtins.fetchTarball "${rp}https://github.com/SamLukeYes/nixpkgs/archive/pacman.tar.gz"
-  }/pkgs/tools/package-management/pacman" {};
 
   pacman-gnupg = callPackage ./pacman/gnupg.nix {
     keyrings = [ archlinux-keyring ];

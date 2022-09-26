@@ -36,6 +36,7 @@ let
     "/run/wrappers"
     "${placeholder "out"}"
     arch-install-scripts
+    bash
     binutils
     breezy
     btrfs-progs

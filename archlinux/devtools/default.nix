@@ -17,6 +17,7 @@
 , glibc
 , gnugrep
 , gnum4
+, gnupg
 , gnused
 , gzip
 , mercurial
@@ -46,6 +47,7 @@ let
     git
     glibc
     gnugrep
+    gnupg
     gnused
     gzip
     mercurial

@@ -62,11 +62,11 @@ let
 
 in stdenvNoCC.mkDerivation rec {
   pname = "devtools";
-  version = "20221002";
+  version = "20221012";
 
   src = fetchzip {
     url = "${rp}https://gitlab.archlinux.org/archlinux/devtools/-/archive/${version}/devtools-${version}.zip";
-    hash = "sha256-JTuPZC8QEYcC+wd4UOwpw0VQy/NzHNNhqHqqtBvogsk=";
+    hash = "sha256-1Kq6QUhpLGoce+kZbDCrXy9Coc8PjzvZN0vhHq+EbEU=";
   };
 
   makeFlags = [ "PREFIX=$(out)" ];
@@ -85,7 +85,7 @@ in stdenvNoCC.mkDerivation rec {
         --replace "/usr/share/makepkg" "${pacman}/share/makepkg" \
         --replace "/usr/share/devtools" "$out/share/devtools"
     done
-    for conf in ./config/makepkg*.conf; do
+    for conf in ./config/makepkg/*.conf; do
       substituteInPlace $conf \
         --replace "/usr/bin/curl" "${curl}/bin/curl" \
         --replace "/usr/bin/rsync" "${rsync}/bin/rsync" \

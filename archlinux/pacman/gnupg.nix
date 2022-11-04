@@ -27,10 +27,7 @@ stdenvNoCC.mkDerivation {
 
   dontFixup = true;
 
-  meta = with lib; {
-    description = "Generate GPGDir for pacman";
-    license = licenses.unfree;
-  };
+  meta.description = "Generate GPGDir for pacman";
 }
 # WARNING: This derivation generates a private key that might be reproducible,
 # or even exist in a binary cache. Use it at your own risk.

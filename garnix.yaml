@@ -2,4 +2,6 @@ builds:
  exclude: []
  include:
   - '*.*.*'
-  - '*.*.*.*'
+  - '*.*.archlinux.*'
+  - '*.*.gnomeExtensions.*'
+  - '*.*.nodePackages.*'

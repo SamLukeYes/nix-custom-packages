@@ -6,7 +6,6 @@ builds:
   - 'packages.*.nodePackages'
   - 'packages.*.pypvz'
  include:
-  - 'packages.*.*'
   - 'packages.*.archlinux.*'
   - 'packages.*.gnomeExtensions.*'
   - 'packages.*.nodePackages.*'

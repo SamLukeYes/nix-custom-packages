@@ -1,7 +1,9 @@
 builds:
- exclude: []
+ exclude:
+  - 'packages.*.archlinux.pacman-gnupg'
+  - 'packages.*.pypvz'
  include:
-  - '*.*.*'
-  - '*.*.archlinux.*'
-  - '*.*.gnomeExtensions.*'
-  - '*.*.nodePackages.*'
+  - 'packages.*.*'
+  - 'packages.*.archlinux.*'
+  - 'packages.*.gnomeExtensions.*'
+  - 'packages.*.nodePackages.*'

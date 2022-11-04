@@ -8,7 +8,7 @@
       inherit system;
       config.allowUnfree = true;
     };
-  in pkgs.recurseIntoAttrs ({
+  in {
     packages.${system} = import ./default.nix { inherit pkgs; };
-  });
+  };
 }

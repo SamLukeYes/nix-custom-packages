@@ -1,11 +1,12 @@
 builds:
- exclude:
-  - 'packages.*.archlinux.pacman-gnupg'
-  - 'packages.*.archlinux'
-  - 'packages.*.gnomeExtensions'
-  - 'packages.*.nodePackages'
-  - 'packages.*.pypvz'
- include:
-  - 'packages.*.archlinux.*'
-  - 'packages.*.gnomeExtensions.*'
-  - 'packages.*.nodePackages.*'
+  exclude:
+    - 'packages.*.archlinux.pacman-gnupg'
+    - 'packages.*.archlinux'
+    - 'packages.*.gnomeExtensions'
+    - 'packages.*.nodePackages'
+    - 'packages.*.pypvz'
+  include:
+    - 'packages.*.*'
+    - 'packages.*.archlinux.*'
+    - 'packages.*.gnomeExtensions.*'
+    - 'packages.*.nodePackages.*'

@@ -29,8 +29,8 @@ stdenvNoCC.mkDerivation {
 
   meta = with lib; {
     description = "Generate GPGDir for pacman";
-    license = licenses.gpl2Plus;
+    license = licenses.unfree;
   };
 }
-# This derivation is supposed to build locally.
-# Don't serve its binary cache.
+# WARNING: This derivation generates a private key that might be reproducible,
+# or even exist in a binary cache. Use it at your own risk.

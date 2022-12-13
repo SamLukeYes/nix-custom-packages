@@ -8,11 +8,11 @@
 
 with python3Packages; buildPythonApplication rec {
   pname = "pypvz";
-  version = "0.8.36.0";
+  version = "0.9.0.0";
 
   src = fetchzip {
     url = "${rp}https://github.com/wszqkzqk/pypvz/archive/refs/tags/${version}.zip";
-    hash = "sha256-BRGLJ00sMmUu03c5XZVPX6gNVO7Sh3WimH0XfGknQ1I=";
+    hash = "sha256-+qprhXyHRaI7nz0gkWRm66hQHqMRDhGewANVF/uS5L8=";
   };
 
   nativeBuildInputs = [ copyDesktopItems ];

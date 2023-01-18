@@ -75,7 +75,7 @@ in stdenvNoCC.mkDerivation rec {
 
   nativeBuildInputs = [ asciidoc gnum4 ];
 
-  preBuild = ''
+  postPatch = ''
     for script in \
       ./lib/common.sh \
       ./src/makechrootpkg.in \

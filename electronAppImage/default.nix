@@ -61,6 +61,8 @@ else appimageTools.wrapType2 {
         $out/share/applications/${pname}.desktop \
         --replace 'Exec=AppRun' 'Exec=${pname}'
 
+    sed -i 's/Icon=.*/Icon=${pname}/' $out/share/applications/${pname}.desktop
+
     cp -r ${appimageContents}/usr/share/icons $out/share
   '';
 }

@@ -19,7 +19,7 @@ rustPlatform.buildRustPackage rec {
     hash = "sha256-9MzT4AIMeFaNLbtiatKcyVL83bsL3+nawwKl9WvOinY=";
   };
 
-  cargoHash = "sha256-unhcIXCvw26GQpG7yX94mq2RPD5vLeJfDWxJhJ7ZRj0=";
+  cargoLock.lockFile = "${src}/Cargo.lock";
 
   postPatch = ''
     substituteInPlace src/lib.rs --replace "/usr/share" "$out/share"

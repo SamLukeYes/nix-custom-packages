@@ -24,8 +24,6 @@ in
     inherit pkgs;
   });
 
-  qq-appimage = callPackage ./qq { inherit mkElectronAppImage; };
-
   snapgene-viewer = callPackage ./snapgene-viewer { };
 
   xonsh-direnv = callPackage ./xonsh-direnv { };

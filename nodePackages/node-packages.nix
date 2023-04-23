@@ -193,13 +193,13 @@ let
         sha512 = "Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==";
       };
     };
-    "@types/node-18.15.12" = {
+    "@types/node-18.16.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "18.15.12";
+      version = "18.16.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-18.15.12.tgz";
-        sha512 = "Wha1UwsB3CYdqUm2PPzh/1gujGCNtWVUYF0mB00fJFoR4gTyWTDPjSm+zBF787Ahw8vSGgBja90MkgFwvB86Dg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-18.16.0.tgz";
+        sha512 = "BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==";
       };
     };
     "@types/qs-6.9.7" = {
@@ -1975,13 +1975,13 @@ let
         sha512 = "jmYNElW7yvO7TV33CjSmvSiE2yco3bV2czu/OzDKdMNVZQWfxCblURLhf+47syQRBntjfLdd/H0egrzIG+oaFQ==";
       };
     };
-    "qrcode-1.5.1" = {
+    "qrcode-1.5.3" = {
       name = "qrcode";
       packageName = "qrcode";
-      version = "1.5.1";
+      version = "1.5.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/qrcode/-/qrcode-1.5.1.tgz";
-        sha512 = "nS8NJ1Z3md8uTjKtP+SGGhfqmTCs5flU/xR623oI0JX+Wepz9R8UrRVCTBTJm3qGw3rH6jJ6MUHjkDx15cxSSg==";
+        url = "https://registry.npmjs.org/qrcode/-/qrcode-1.5.3.tgz";
+        sha512 = "puyri6ApkEHYiVl4CFzo1tDkAZ+ATcnbJrJ6RiBM1Fhctdn/ix9MTE3hRph33omisEbC/2fcfemsseiKgBPKZg==";
       };
     };
     "qs-6.11.0" = {
@@ -2119,13 +2119,13 @@ let
         sha512 = "ii4iagi25WusVoiC4B4lq7pbXfAp3D9v5CwfkY33vffw2+pkDjY1D8GaN7spsxvCSx8dkPqOZCEZyfxcmJG2IA==";
       };
     };
-    "rollup-3.20.6" = {
+    "rollup-3.20.7" = {
       name = "rollup";
       packageName = "rollup";
-      version = "3.20.6";
+      version = "3.20.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/rollup/-/rollup-3.20.6.tgz";
-        sha512 = "2yEB3nQXp/tBQDN0hJScJQheXdvU2wFhh6ld7K/aiZ1vYcak6N/BKjY1QrU6BvO2JWYS8bEs14FRaxXosxy2zw==";
+        url = "https://registry.npmjs.org/rollup/-/rollup-3.20.7.tgz";
+        sha512 = "P7E2zezKSLhWnTz46XxjSmInrbOCiul1yf+kJccMxT56vxjHwCbDfoLbiqFgu+WQoo9ij2PkraYaBstgB2prBA==";
       };
     };
     "safe-buffer-5.1.2" = {
@@ -2506,13 +2506,13 @@ let
         sha512 = "pJOW4nxjlmfwKApE4zvxLScM/njmwj/DiUBv7EabwE4O8kRUy+HIwxQtZLBPll/jx1LJyBcqNfB3/cpv9EZwOw==";
       };
     };
-    "undici-5.21.2" = {
+    "undici-5.22.0" = {
       name = "undici";
       packageName = "undici";
-      version = "5.21.2";
+      version = "5.22.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/undici/-/undici-5.21.2.tgz";
-        sha512 = "f6pTQ9RF4DQtwoWSaC42P/NKlUjvezVvd9r155ohqkwFNRyBKM3f3pcty3ouusefNRyM25XhIQEbeQ46sZDJfQ==";
+        url = "https://registry.npmjs.org/undici/-/undici-5.22.0.tgz";
+        sha512 = "fR9RXCc+6Dxav4P9VV/sp5w3eFiSdOjJYsbtWfd4s5L5C4ogyuVpdKIVHeW0vV1MloM65/f7W45nR9ZxwVdyiA==";
       };
     };
     "unpipe-1.0.0" = {
@@ -2596,13 +2596,13 @@ let
         sha512 = "2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==";
       };
     };
-    "which-module-2.0.0" = {
+    "which-module-2.0.1" = {
       name = "which-module";
       packageName = "which-module";
-      version = "2.0.0";
+      version = "2.0.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/which-module/-/which-module-2.0.0.tgz";
-        sha512 = "B+enWhmw6cjfVC7kS8Pj9pCrKSc5txArRyaYGe088shv/FGWH+0Rjx/xPgtsWfsUtS27FkP697E4DDhgrgoc0Q==";
+        url = "https://registry.npmjs.org/which-module/-/which-module-2.0.1.tgz";
+        sha512 = "iBdZ57RDvnOR9AGBhML2vFZf7h8vmBjhoaZqODJBFWHVtKkDmKuHai3cx5PgVMrX5YDNp27AofYbAwctSS+vhQ==";
       };
     };
     "wrap-ansi-6.2.0" = {
@@ -2958,7 +2958,7 @@ in
         ];
       })
       sources."punycode-1.4.1"
-      sources."qrcode-1.5.1"
+      sources."qrcode-1.5.3"
       sources."querystring-0.2.0"
       sources."querystring-es3-0.2.1"
       sources."randombytes-2.1.0"
@@ -2974,7 +2974,7 @@ in
       sources."require-main-filename-2.0.0"
       sources."resolve-1.22.3"
       sources."ripemd160-2.0.2"
-      sources."rollup-3.20.6"
+      sources."rollup-3.20.7"
       sources."safe-buffer-5.2.1"
       sources."safer-buffer-2.1.2"
       sources."set-blocking-2.0.0"
@@ -3010,7 +3010,7 @@ in
       sources."typedarray-0.0.6"
       sources."umd-3.0.3"
       sources."undeclared-identifiers-1.1.3"
-      sources."undici-5.21.2"
+      sources."undici-5.22.0"
       (sources."url-0.11.0" // {
         dependencies = [
           sources."punycode-1.3.2"
@@ -3024,7 +3024,7 @@ in
       })
       sources."util-deprecate-1.0.2"
       sources."vm-browserify-1.1.2"
-      sources."which-module-2.0.0"
+      sources."which-module-2.0.1"
       sources."wrap-ansi-6.2.0"
       sources."wrappy-1.0.2"
       sources."ws-8.13.0"
@@ -3137,7 +3137,7 @@ in
       sources."@types/express-serve-static-core-4.17.33"
       sources."@types/http-proxy-1.17.10"
       sources."@types/mime-3.0.1"
-      sources."@types/node-18.15.12"
+      sources."@types/node-18.16.0"
       sources."@types/qs-6.9.7"
       sources."@types/range-parser-1.2.4"
       sources."@types/serve-static-1.15.1"

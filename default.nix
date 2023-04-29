@@ -11,11 +11,7 @@ let
   };
 in
 
-{
-  archlinux = recurseIntoAttrs (import ./archlinux {
-    inherit pkgs rp;
-  });
-  
+{  
   lx-music-desktop = callPackage ./lx-music-desktop {
     inherit mkElectronAppImage rp;
   };
